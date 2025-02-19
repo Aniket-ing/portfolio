@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'A website that generates websites.',
       description: 'A website based on llm that geneartes an website by user prompts.',
       image: './src/Landing.png',
-      github: 'https://github.com/Aniket-ing/websSteGenerator',
+      github: 'https://github.com/DhruvPansuriya/Product_Dev_Kriti-25/tree/soumaraj_piyush',
       live: 'https://product-dev-kriti-25-front-end.onrender.com'
     },{
       title: 'Job hunt Website',
