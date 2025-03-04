@@ -6,20 +6,23 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <Routes>
+          {/* Home should load by default */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          {/* Catch-all route (Redirect to Home if route is not found) */}
+          <Route path="*" element={<Home />} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;

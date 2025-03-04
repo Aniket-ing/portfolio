@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import '../index.css'; 
 const About = () => {
   const skills = [
     'React', 'Taiwind', 'Node.js', 'C+','C','HTML','CSS','JavaScript'

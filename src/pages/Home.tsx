@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Download } from 'lucide-react';
-
+import '../index.css'; 
+import profileImage from '../public/profilepicture.jpeg';
 const Home = () => {
   return (
     <div className="min-h-screen pt-16 relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
@@ -54,7 +55,7 @@ const Home = () => {
               transition={{ delay: 0.2 }}
             >
               <motion.img
-                src="./src/profilepicture.jpeg"
+                src= {profileImage}
                 alt="Profile"
                 className="w-48 h-48 rounded-full object-cover shadow-2xl ring-8 ring-white/50 backdrop-blur-sm"
                 initial={{ scale: 0 }}

@@ -1,33 +1,37 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
-
+import '../index.css'; 
+import jobImage from '../public/job.png';
+import LandingImage from '../public/Landing.png'; 
+import portfolioImage from '../public/portfolio.png'; 
+import tic_tak_toeImage from '../public/tic-tak-toe.png'; 
 const Projects = () => {
   const projects = [
     {
       title: 'A website that generates websites.',
       description: 'A website based on llm that geneartes an website by user prompts.',
-      image: './src/Landing.png',
+      image: LandingImage,
       github: 'https://github.com/DhruvPansuriya/Product_Dev_Kriti-25/tree/soumaraj_piyush',
       live: 'https://product-dev-kriti-25-front-end.onrender.com'
     },{
       title: 'Job hunt Website',
       description: 'A full-featured job website where user can find and apply for jobs of there choice and admin can create jobs.',
-      image: './src/job.png',
+      image: jobImage,
       github: 'https://github.com/Aniket-ing/jobportal',
       live: 'https://example.com'
     },
     {
       title: 'Personal portfolio',
       description: '"A dynamic personal portfolio showcasing my skills, projects, and experience. Designed for a seamless and engaging user experience." ',
-      image: './src/portfolio.png',
+      image: portfolioImage,
       github: 'https://github.com/Aniket-ing/portfolio',
       live: 'https://aniket-ing.github.io/portfolio/'
     },
     {
       title: 'Tic-tac-toe Game',
       description: 'A responsive game page of a famous game tic-tac-toe',
-      image: './src/tic-tak-toe.png',
+      image:tic_tak_toeImage ,
       github: 'https://github.com/Aniket-ing/Tic-tac-toe',
       live: ' https://aniket-ing.github.io/Tic-tac-toe/'
     }
