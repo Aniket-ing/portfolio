@@ -20,6 +20,7 @@ const App: React.FC = () => {
           {/* Catch-all route (Redirect to Home if route is not found) */}
           <Route path="*" element={<Home />} />
         </Routes>
+        <Home/>
       </div>
     </Router>
   );
