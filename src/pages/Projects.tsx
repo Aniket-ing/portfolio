@@ -18,8 +18,8 @@ const Projects = () => {
       title: 'Job hunt Website',
       description: 'A full-featured job website where user can find and apply for jobs of there choice and admin can create jobs.',
       image: jobImage,
-      github: 'https://github.com/Aniket-ing/jobportal',
-      live: 'https://example.com'
+      github: 'https://github.com/Aniket-ing/jobportal1',
+      live: 'https://jobportal1-phrp.onrender.com'
     },
     {
       title: 'Personal portfolio',

@@ -19,8 +19,7 @@ const App: React.FC = () => {
           <Route path="/contact" element={<Contact />} />
           {/* Catch-all route (Redirect to Home if route is not found) */}
           <Route path="*" element={<Home />} />
-        </Routes>
-        <Home/>
+        </Routes> 
       </div>
     </Router>
   );
