@@ -4,7 +4,7 @@ import '../index.css';
 const About = () => {
   const skills = [
     'React', 'Taiwind', 'Node.js', 'C+','C','HTML','CSS','JavaScript'
-     , 'SQL', 'MongoDB'
+     , 'SQL', 'MongoDB','express.js'
   ];
 
   return (
